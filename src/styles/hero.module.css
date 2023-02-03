@@ -1,0 +1,23 @@
+.heroSection {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.headingSection {
+    max-width: 400px;
+}
+.heading {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.pinkcolor {
+    color: rgb(255, 44, 145);
+}
+@media (max-width: 690px) {
+    .images img {
+        width: 60%;
+    }
+}

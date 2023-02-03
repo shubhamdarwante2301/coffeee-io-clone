@@ -1,0 +1,114 @@
+.container {
+  background-color: #191642;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 6rem;
+}
+@media (max-width: 580px) {
+  .container {
+    padding: 2rem;
+    min-height: 90vh;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    padding: 1rem;
+    align-items: center;
+  }
+}
+
+/* hero section */
+.heading {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.colored {
+  color: rgb(255, 44, 145);
+}
+.subheading {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.buttons a {
+  text-decoration: none;
+  background-color: rgb(255, 44, 145);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.6rem;
+}
+.buttons a:hover {
+  background-color: rgb(76, 76, 241);
+}
+
+/* side animation */
+/* .animation {
+  flex: 1;
+  max-width: 300px;
+  height: 100vh;
+  position: relative;
+}
+.animation::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 300px;
+  height: 1000px;
+  background-image: url("https://www.coffeee.io/_next/static/media/bgoverlay.df20a5b4.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+  animation: 5s scrollAnimation 0ms linear infinite;
+}
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(100vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+} */
+
+/* footer section */
+.footer {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem 1.5rem;
+  background-image: linear-gradient(to top, black, #191642);
+  z-index: 10;
+}
+.copyright {
+  margin-bottom: 0.7rem;
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 1.5rem;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .sociallinks {
+  display: flex;
+  align-items: center;
+}
+.sociallinks img {
+  cursor: pointer;
+}
+@media (max-width: 565px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

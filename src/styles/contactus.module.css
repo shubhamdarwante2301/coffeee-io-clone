@@ -1,0 +1,99 @@
+.contactus {
+    margin: 0 5rem;
+}
+@media (max-width: 680px) {
+    .contactus {
+        margin: 0 3rem;
+    }
+}
+@media (max-width: 378px) {
+    .contactus {
+        margin: 0 1rem;
+    }
+}
+.heroSection {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.heroSection div {
+    flex: 1;
+    margin-left: 2rem;
+    min-width: 300px;
+}
+.heroText h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.heroText p {
+    font-size: 1.8rem;
+}
+.contactImage {
+    flex: 1;
+}
+.contactImage img {
+    width: 80%;
+    height: 80%;
+}
+
+/* Contact Details */
+.contactDetails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container {
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 2rem;
+    padding: 5rem;
+    max-width: 600px;
+    margin-top: 2rem;
+}
+@media (max-width: 378px) {
+    .container {
+        padding: 3rem;
+    }
+}
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.container h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.container p {
+    font-size: 1.3rem;
+}
+.socialIcons svg {
+    color: blue;
+    margin: 1rem 0.5rem;
+}
+/* map */
+.locationMap {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid lightgrey;
+    border-radius: 2rem;
+}
+.locationMap .map {
+    flex: 2;
+    min-width: 300px;
+}
+.map iframe{
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+.locationMap .address {
+    flex: 1;
+    padding: 4rem;
+}
+.address p {
+    margin-top: 2.5rem;
+}

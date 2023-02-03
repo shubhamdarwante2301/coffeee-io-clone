@@ -1,0 +1,10 @@
+.details {
+    text-align: center;
+    margin: 3rem 5rem;
+    line-height: 1.5;
+}
+.campusPartners {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
